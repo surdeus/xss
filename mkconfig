@@ -1,0 +1,9 @@
+<$HOME/app/mk/inc/config
+VERSION = 0.1
+PROGNAME = xss
+INCS = $USRINC $X11INC 
+LIBS = $USRLIB $X11LIB
+DEFS = -DVERSION=\"$VERSION\" \
+	-DNAME=\"$NAME\"
+CFILES = main.c
+
